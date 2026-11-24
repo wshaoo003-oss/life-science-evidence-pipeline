@@ -1,0 +1,4 @@
+interface:
+  display_name: "Life Science Evidence Pipeline"
+  short_description: "Build traceable life-science evidence datasets"
+  default_prompt: "Use $life-science-evidence-pipeline to retrieve, parse, validate, and release a traceable life-science evidence batch."

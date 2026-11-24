@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Validate a reusable life-science evidence ETL pipeline with five legally downloadable PMC articles.",
+  "papers": [
+    {
+      "pmcid": "PMC10665130",
+      "doi": "10.1042/cs20230319",
+      "license": "CC BY",
+      "document_type": "review",
+      "profile": "aging-muscle",
+      "cross_parsers": ["markitdown"],
+      "test_target": "Long references, section structure, and mechanistic claims"
+    },
+    {
+      "pmcid": "PMC11019130",
+      "doi": "10.1111/acel.14097",
+      "license": "CC BY",
+      "document_type": "primary-research",
+      "profile": "molecular-cellular",
+      "cross_parsers": ["docling"],
+      "test_target": "Human and mouse models, figure panels, genes, and functional outcomes"
+    },
+    {
+      "pmcid": "PMC11027364",
+      "doi": "10.1186/s13059-024-03246-2",
+      "license": "CC BY",
+      "document_type": "resource",
+      "profile": "omics",
+      "cross_parsers": ["markitdown"],
+      "test_target": "Datasets, platforms, tissues, cell types, and supplementary material"
+    },
+    {
+      "pmcid": "PMC7312630",
+      "doi": "10.3390/ijerph17113760",
+      "license": "CC BY",
+      "document_type": "randomized-controlled-trial",
+      "profile": "clinical",
+      "cross_parsers": ["docling"],
+      "test_target": "Cohort arms, clinical outcomes, tables, and numeric values"
+    },
+    {
+      "pmcid": "PMC10763432",
+      "doi": "10.1186/s12870-023-04709-7",
+      "license": "CC BY",
+      "document_type": "primary-research",
+      "profile": "plant",
+      "cross_parsers": ["docling"],
+      "test_target": "Nonmedical species, gene expression, phenotypes, and drought stress"
+    }
+  ]
+}

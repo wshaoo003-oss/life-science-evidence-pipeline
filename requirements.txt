@@ -1,0 +1,2 @@
+# Repository helpers and offline tests use Python's standard library only.
+# Install external parser CLIs in separate environments; see README.md.
